@@ -1,0 +1,18 @@
+
+
+.card{
+    margin: 16px;
+}
+
+  a:not([href]):not([tabindex]) {
+    color: white;
+  }
+.main{
+    background-image: url(../assets/img/flowers.jpg);
+}
+ 
+.card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }

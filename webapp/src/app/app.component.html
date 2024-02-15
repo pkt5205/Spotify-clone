@@ -1,0 +1,154 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height: 100px;width: -webkit-fill-available;;position: fixed;z-index: 100;">
+  <a class="navbar-brand" href="#" >
+    <img src="../assets/img/pngegg.png" width="150" height="150" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="font-size: 30px;"><i class="fa-solid fa-house" style="color: #fcfcfc;"></i> <strong> Home </strong><span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 30px;">
+          <strong> Login </strong>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">User</a>
+          <a class="dropdown-item" href="#">Prime User</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <strong>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </strong>
+    </form>
+  </div>
+</nav>
+<div class="main" style="position: relative;top:100px;">
+    <div style="    margin: 25px;
+      font-size: 40px;
+      margin-left: 94px;
+      margin-bottom: -60px;margin-top: 0px;">
+      <strong>Hits</strong>
+  </div>
+  <div class="items" style="display: flex; margin: 82px;">
+    <div class="card" style="width: 18rem;">
+     <img class="card-img-top" src="../assets/img/Kya-Loge-Tum-Hindi-2023-20230507053259-500x500.jpg" alt="Card image cap" id="KLTP">
+    <div class="card-body">
+      
+      <h5 class="card-title">Kya Loge Tum</h5>
+      <p class="card-text">B Prak,Jaani</p>
+      <!-- <img  [src]="image" (click)="playAudio()"  id="icon" style="height: 68px;width: 75px;float: right;"> -->
+      <a (click)="playAudio()" class="btn btn-primary" id="playBTN" [innerHTML]="pp"></a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/2012TheWeekndPressCreditLAMARTAYLOR291012-696x464.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">The Hills</h5>
+      <p class="card-text">Weekend</p>
+      <a (click)="playAudio()" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/die for you.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Die For You</h5>
+      <p class="card-text">Weekend ft Ariana</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Tere-Hawaale-From-Laal-Singh-Chaddha-Hindi-2022-20220804093945-500x500.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Tere Hawale</h5>
+      <p class="card-text">Arijit Singh</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Apna-Bana-Le-LoFi-Hindi-2023-20230325061848-500x500.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Apna Bana Le</h5>
+      <p class="card-text">Arijit Singh</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Dhokha-Hindi-2022-20220210031007-500x500.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Dhokha</h5>
+      <p class="card-text">Arijit Singh</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+</div>
+<div style="    margin: 25px;
+  font-size: 40px;
+  margin-left: 94px;
+  margin-bottom: -60px;">
+  <strong>90's</strong>
+</div>
+<div class="items" style="display: flex; margin: 82px;">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Kya-Loge-Tum-Hindi-2023-20230507053259-500x500.jpg" alt="Card image cap" id="KLTP">
+    <div class="card-body">
+      
+      <h5 class="card-title">Kya Loge Tum</h5>
+      <p class="card-text">B Prak,Jaani</p>
+      <!-- <img  [src]="image" (click)="playAudio()"  id="icon" style="height: 68px;width: 75px;float: right;"> -->
+      <a (click)="playAudio()" class="btn btn-primary" id="playBTN" [innerHTML]="pp"></a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/2012TheWeekndPressCreditLAMARTAYLOR291012-696x464.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">The Hills</h5>
+      <p class="card-text">Weekend</p>
+      <a (click)="playAudio()" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/die for you.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Die For You</h5>
+      <p class="card-text">Weekend ft Ariana</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Tere-Hawaale-From-Laal-Singh-Chaddha-Hindi-2022-20220804093945-500x500.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Tere Hawale</h5>
+      <p class="card-text">Arijit Singh</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Apna-Bana-Le-LoFi-Hindi-2023-20230325061848-500x500.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Apna Bana Le</h5>
+      <p class="card-text">Arijit Singh</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../assets/img/Dhokha-Hindi-2022-20220210031007-500x500.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Dhokha</h5>
+      <p class="card-text">Arijit Singh</p>
+      <a href="#" class="btn btn-primary">Play</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<app-playerbar></app-playerbar>
+
+
